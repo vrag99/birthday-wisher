@@ -18,3 +18,5 @@ email = EmailSender(
 )
 
 print("Succesfully setup the email sender :)")
+
+# Code from here
