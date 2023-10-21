@@ -19,4 +19,18 @@ This is the starting point for the birthday wish automator.
     ```
     pip install -r requirements.txt
     ```
-### And you're all done!
+### And you're done with the setup!
+---
+## Get your `.env` setup.
+1. Go to [App passwords](https://myaccount.google.com/apppasswords) > login into your mail
+2. You'll see an input box for App Name. Make a new app with any name (say 'abcd') and copy the code that it gives and paste it into your .env file.
+3. If it throws an error and says 'Go to your Google account'  
+   - Enable 2 step verification on your account and enable less secure apps and try again.
+   - If the error persists, try with another mail id.
+---
+## Make a birthday list
+1. Go to your google sheets and make a document containing the names, emails and their birthdays.
+2. Make a new project on [sheety](https://sheety.co) and paste your sheet url there and access your **API**.
+---
+**The solutions are there in the solutions folder.**
+
